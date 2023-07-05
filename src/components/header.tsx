@@ -11,7 +11,7 @@ const NavBtns: React.FC = () => {
 
 const Header:React.FC = () => {
     return (
-        <header className="flex justify-around items-center bg-stone-900 h-1/4">
+        <header className="flex justify-around items-center bg-stone-900 h-1/4 sticky top-0 left-0 right-0 z-50">
             <h2 className="text-3xl font-bold m-4 text-slate-200">Antimuggles</h2>
             <Navbar />
             <NavBtns />
