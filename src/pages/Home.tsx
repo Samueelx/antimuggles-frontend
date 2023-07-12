@@ -1,5 +1,7 @@
 import './home.css'
 import Categories from '../components/Categories';
+import Welcome from '../components/Welcome';
+import TrustedClients from '../components/TrustedClients';
 
 function Home() {
     return (
@@ -35,6 +37,11 @@ function Home() {
             </div>
 
             <Categories />
+
+            <div>
+                <Welcome />
+                <TrustedClients />
+            </div>
         </>
     );
 }
